@@ -21,29 +21,96 @@
 				"foreground": "#f63e56"
 			}
 		},
-
 		{
 			"scope": "entity.other.attribute-name.js",
 			"settings": {
 				"foreground": "#f5bc2b"
 			}
 		},
-
 		{
 			"scope": "keyword.operator.assignment.js.jsx",
 			"settings": {
 				"foreground": "#b6ff23"
 			}
 		},
-
 		{
 			"scope": "constant.numeric.decimal.js.jsx",
 			"settings": {
 				"foreground": "#f9cb3f"
 			}
 		},
+		/* HTML */
+		{
+			"scope": "entity.name.tag.html",
+			"settings": {
+				"foreground": "#2c88f9"
+			}
+		},
+		{
+			"scope": "entity.other.attribute-name.html",
+			"settings": {
+				"foreground": "#c8e50a"
+			}
+		},
+		{
+			"scope": "meta.attribute.id",
+			"settings": {
+				"foreground": "#d5ba24"
+			}
+		},
+		{
+			"scope": "invalid.deprecated.html",
+			"settings": {
+				"foreground": "#eb4d97"
+			}
+		},
 
+		/* Css */
 
+		{
+			"scope": "entity.other.attribute-name.class.css",
+			"settings": {
+				"foreground": "#2494ef"
+			}
+		},
+
+		{
+			"scope": "support.function.transform.css",
+			"settings": {
+				"foreground": "#3fbe50"
+			}
+		},
+
+		{
+			"scope": "support.function.misc.css",
+			"settings": {
+				"foreground": "#88e342"
+			}
+		},
+
+		{
+			"name": "styling css pseudo-elements/classes to be able to differentiate from classes which are the same colour",
+			"scope": [
+				"entity.other.attribute-name.pseudo-element",
+				"entity.other.attribute-name.pseudo-class"
+			],
+			"settings": {
+				"foreground": "#41e7c9"
+			}
+		},
+		/* Python */
+		{
+			"scope": "variable.parameter.function-call.python",
+			"settings": {
+				"foreground": "#d63434"
+			}
+		},
+		{
+			"scope": "constant.language.python",
+			"settings": {
+				"foreground": "#2a8cd6"
+			}
+		},
 		/* Personalizados el resto */
 		{
 			"scope": "variable.other.property.js",
@@ -146,7 +213,7 @@
 			"name": "punctuation.definition",
 			"scope": "punctuation.definition.string.begin,punctuation.definition.string.end",
 			"settings": {
-				"foreground": "#c1a82e"
+				"foreground": "#614ef5"
 			}
 		},
 		{
@@ -373,7 +440,7 @@
 			"name": "js variable readwrite",
 			"scope": "variable.other.readwrite,meta.object-literal.key,support.variable.property,support.variable.object.process,support.variable.object.node",
 			"settings": {
-				"foreground": "#ffbd30"
+				"foreground": "#74d5ff"
 			}
 		},
 		{
@@ -513,13 +580,6 @@
 			"scope": "keyword.operator.logical.python",
 			"settings": {
 				"foreground": "#3470ff"
-			}
-		},
-		{
-			"name": "pyCs",
-			"scope": "variable.parameter.function.python",
-			"settings": {
-				"foreground": "#c9365f"
 			}
 		},
 		{
@@ -822,7 +882,7 @@
 			"name": "Attributes",
 			"scope": "entity.other.attribute-name",
 			"settings": {
-				"foreground": "#c9365f"
+				"foreground": "#f52d65"
 			}
 		},
 		{
@@ -831,14 +891,6 @@
 			"settings": {
 				"fontStyle": "normal",
 				"foreground": "#b8ff33"
-			}
-		},
-		{
-			"name": "Attribute class",
-			"scope": "entity.other.attribute-name.class.css",
-			"settings": {
-				"fontStyle": "normal",
-				"foreground": "#c9365f"
 			}
 		},
 		{
@@ -1521,16 +1573,7 @@
 				"foreground": "#ffbd30"
 			}
 		},
-		{
-			"name": "styling css pseudo-elements/classes to be able to differentiate from classes which are the same colour",
-			"scope": [
-				"entity.other.attribute-name.pseudo-element",
-				"entity.other.attribute-name.pseudo-class"
-			],
-			"settings": {
-				"foreground": "#ea3333"
-			}
-		},
+
 		{
 			"name": "Clojure globals",
 			"scope": [
@@ -1879,7 +1922,7 @@
 			"settings": {
 				"fontStyle": "italic"
 			}
-		}
+		},
 	],
 	"colors": {
 		"foreground": "#849cd5",
