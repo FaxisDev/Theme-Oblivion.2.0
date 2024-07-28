@@ -2,7 +2,7 @@
   "name": "theme-oblivion-2-0",
   "displayName": "Theme Oblivion 2.0",
   "description": "Este tema de colores azules está inspirado en el clásico Tema Original Oblivion, pero ha sido renovado y modernizado para satisfacer las necesidades de las nuevas generaciones de desarrolladores que utilizan Visual Studio Code. Disfruta de una paleta de colores suaves y relajantes que mejoran la legibilidad y reducen la fatiga visual durante largas sesiones de codificación.",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "publisher": "ArfaxadZadot",
   "engines": {
     "vscode": "^1.91.0"
