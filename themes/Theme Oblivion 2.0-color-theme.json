@@ -16,7 +16,7 @@
 	"tokenColors": [
 		/* Estilos para JSX & REACT */
 		{
-			"scope": "support.class.component.js.jsx",
+			"scope": "support.class.component.js",
 			"settings": {
 				"foreground": "#f63e56"
 			}
@@ -27,16 +27,11 @@
 				"foreground": "#f5bc2b"
 			}
 		},
+
 		{
-			"scope": "keyword.operator.assignment.js.jsx",
+			"scope": "constant.numeric.decimal.js",
 			"settings": {
-				"foreground": "#b6ff23"
-			}
-		},
-		{
-			"scope": "constant.numeric.decimal.js.jsx",
-			"settings": {
-				"foreground": "#f9cb3f"
+				"foreground": "#b1c6eb"
 			}
 		},
 		/* HTML */
@@ -84,7 +79,7 @@
 		{
 			"scope": "support.function.misc.css",
 			"settings": {
-				"foreground": "#88e342"
+				"foreground": "#5745FF"
 			}
 		},
 
@@ -171,7 +166,7 @@
 			"name": "support.function.std.rust",
 			"scope": "support.function.std.rust",
 			"settings": {
-				"foreground": "#b8ff33"
+				"foreground": "#6f47ff"
 			}
 		},
 		{
@@ -213,7 +208,7 @@
 			"name": "punctuation.definition",
 			"scope": "punctuation.definition.string.begin,punctuation.definition.string.end",
 			"settings": {
-				"foreground": "#614ef5"
+				"foreground": "#80e446"
 			}
 		},
 		{
@@ -241,14 +236,14 @@
 			"name": "diff",
 			"scope": "meta.diff.header.from-file,meta.diff.header.to-file,punctuation.definition.from-file.diff,punctuation.definition.to-file.diff",
 			"settings": {
-				"foreground": "#b8ff33"
+				"foreground": "#5745FF"
 			}
 		},
 		{
 			"name": "inserted.diff",
 			"scope": "markup.inserted.diff",
 			"settings": {
-				"foreground": "#6846e4"
+				"foreground": "#80e446"
 			}
 		},
 		{
@@ -283,7 +278,7 @@
 			"name": "js/ts import keyword",
 			"scope": "keyword.operator.expression.import",
 			"settings": {
-				"foreground": "#b8ff33"
+				"foreground": "#5745FF"
 			}
 		},
 		{
@@ -335,7 +330,7 @@
 			"name": "java modifier.import",
 			"scope": "meta.method.java",
 			"settings": {
-				"foreground": "#b8ff33"
+				"foreground": "#5745FF"
 			}
 		},
 		{
@@ -481,7 +476,7 @@
 			"name": "js console function",
 			"scope": "entity.name.function,support.function.console",
 			"settings": {
-				"foreground": "#b8ff33"
+				"foreground": "#5745FF"
 			}
 		},
 		{
@@ -593,7 +588,7 @@
 			"name": "python function-call.generic",
 			"scope": "meta.function-call.generic.python",
 			"settings": {
-				"foreground": "#b8ff33"
+				"foreground": "#5745FF"
 			}
 		},
 		{
@@ -696,7 +691,7 @@
 				"variable.function"
 			],
 			"settings": {
-				"foreground": "#b8ff33"
+				"foreground": "#5745FF"
 			}
 		},
 		{
@@ -763,7 +758,7 @@
 			"name": "Methods",
 			"scope": "keyword.other.special-method",
 			"settings": {
-				"foreground": "#b8ff33"
+				"foreground": "#5745FF"
 			}
 		},
 		{
@@ -833,7 +828,7 @@
 			"name": "Strings",
 			"scope": "string",
 			"settings": {
-				"foreground": "#6c4eff"
+				"foreground": "#a7ff23"
 			}
 		},
 		{
@@ -890,7 +885,7 @@
 			"scope": "entity.other.attribute-name.id",
 			"settings": {
 				"fontStyle": "normal",
-				"foreground": "#b8ff33"
+				"foreground": "#5745FF"
 			}
 		},
 		{
@@ -911,7 +906,7 @@
 			"name": "Headings",
 			"scope": "markup.heading punctuation.definition.heading, entity.name.section",
 			"settings": {
-				"foreground": "#b8ff33"
+				"foreground": "#5745FF"
 			}
 		},
 		{
@@ -988,14 +983,14 @@
 			"name": "[VSCODE-CUSTOM] Markdown Inline Raw",
 			"scope": "markup.inline.raw.markdown",
 			"settings": {
-				"foreground": "#6846e4"
+				"foreground": "#80e446"
 			}
 		},
 		{
 			"name": "[VSCODE-CUSTOM] Markdown Inline Raw",
 			"scope": "markup.inline.raw.string.markdown",
 			"settings": {
-				"foreground": "#6846e4"
+				"foreground": "#80e446"
 			}
 		},
 		{
@@ -1043,7 +1038,7 @@
 			"name": "[VSCODE-CUSTOM] Markdown Link Title/Description",
 			"scope": "string.other.link.title.markdown,string.other.link.description.markdown",
 			"settings": {
-				"foreground": "#b8ff33"
+				"foreground": "#5745FF"
 			}
 		},
 		{
@@ -1127,7 +1122,7 @@
 			"name": "Source Json Meta Structure Dictionary Json > Value Json > String Quoted Json,source Json Meta Structure Array Json > Value Json > String Quoted Json,source Json Meta Structure Dictionary Json > Value Json > String Quoted Json > Punctuation,source Json Meta Structure Array Json > Value Json > String Quoted Json > Punctuation",
 			"scope": "source.json meta.structure.dictionary.json > value.json > string.quoted.json,source.json meta.structure.array.json > value.json > string.quoted.json,source.json meta.structure.dictionary.json > value.json > string.quoted.json > punctuation,source.json meta.structure.array.json > value.json > string.quoted.json > punctuation",
 			"settings": {
-				"foreground": "#6846e4"
+				"foreground": "#80e446"
 			}
 		},
 		{
@@ -1218,7 +1213,7 @@
 			"name": "php call-function",
 			"scope": "meta.function-call.php,meta.function-call.object.php,meta.function-call.static.php",
 			"settings": {
-				"foreground": "#b8ff33"
+				"foreground": "#5745FF"
 			}
 		},
 		{
@@ -1246,7 +1241,7 @@
 			"name": "php goto",
 			"scope": "entity.name.goto-label.php,support.other.php",
 			"settings": {
-				"foreground": "#b8ff33"
+				"foreground": "#5745FF"
 			}
 		},
 		{
@@ -1281,7 +1276,7 @@
 			"name": "python function decorator @",
 			"scope": "meta.function.decorator.python",
 			"settings": {
-				"foreground": "#b8ff33"
+				"foreground": "#5745FF"
 			}
 		},
 		{
@@ -1378,7 +1373,7 @@
 		{
 			"scope": "token.info-token",
 			"settings": {
-				"foreground": "#b8ff33"
+				"foreground": "#5745FF"
 			}
 		},
 		{
@@ -1434,7 +1429,7 @@
 				"support.type.type.flowtype"
 			],
 			"settings": {
-				"foreground": "#b8ff33"
+				"foreground": "#5745FF"
 			}
 		},
 		{
@@ -1470,7 +1465,7 @@
 				"keyword.other.template.begin"
 			],
 			"settings": {
-				"foreground": "#6846e4"
+				"foreground": "#80e446"
 			}
 		},
 		{
@@ -1479,7 +1474,7 @@
 				"keyword.other.template.end"
 			],
 			"settings": {
-				"foreground": "#6846e4"
+				"foreground": "#80e446"
 			}
 		},
 		{
@@ -1488,7 +1483,7 @@
 				"keyword.other.substitution.begin"
 			],
 			"settings": {
-				"foreground": "#6846e4"
+				"foreground": "#80e446"
 			}
 		},
 		{
@@ -1497,7 +1492,7 @@
 				"keyword.other.substitution.end"
 			],
 			"settings": {
-				"foreground": "#6846e4"
+				"foreground": "#80e446"
 			}
 		},
 		{
@@ -1617,7 +1612,7 @@
 				"source.ini"
 			],
 			"settings": {
-				"foreground": "#6846e4"
+				"foreground": "#80e446"
 			}
 		},
 		{
@@ -1653,7 +1648,7 @@
 				"meta.method.groovy"
 			],
 			"settings": {
-				"foreground": "#b8ff33"
+				"foreground": "#5745FF"
 			}
 		},
 		{
@@ -1671,7 +1666,7 @@
 				"meta.definition.class.inherited.classes.groovy"
 			],
 			"settings": {
-				"foreground": "#6846e4"
+				"foreground": "#80e446"
 			}
 		},
 		{
@@ -1777,7 +1772,7 @@
 				"beginning.punctuation.definition.quote.markdown.xi"
 			],
 			"settings": {
-				"foreground": "#6846e4"
+				"foreground": "#80e446"
 			}
 		},
 		{
@@ -1795,7 +1790,7 @@
 				"constant.character.xi"
 			],
 			"settings": {
-				"foreground": "#b8ff33"
+				"foreground": "#5745FF"
 			}
 		},
 		{
@@ -1804,7 +1799,7 @@
 				"accent.xi"
 			],
 			"settings": {
-				"foreground": "#b8ff33"
+				"foreground": "#5745FF"
 			}
 		},
 		{
