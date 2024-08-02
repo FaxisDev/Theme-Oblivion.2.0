@@ -27,7 +27,6 @@
 				"foreground": "#f5bc2b"
 			}
 		},
-
 		{
 			"scope": "constant.numeric.decimal.js",
 			"settings": {
@@ -59,30 +58,25 @@
 				"foreground": "#eb4d97"
 			}
 		},
-
 		/* Css */
-
 		{
 			"scope": "entity.other.attribute-name.class.css",
 			"settings": {
 				"foreground": "#2494ef"
 			}
 		},
-
 		{
 			"scope": "support.function.transform.css",
 			"settings": {
 				"foreground": "#3fbe50"
 			}
 		},
-
 		{
 			"scope": "support.function.misc.css",
 			"settings": {
 				"foreground": "#5745FF"
 			}
 		},
-
 		{
 			"name": "styling css pseudo-elements/classes to be able to differentiate from classes which are the same colour",
 			"scope": [
@@ -1568,7 +1562,6 @@
 				"foreground": "#ffbd30"
 			}
 		},
-
 		{
 			"name": "Clojure globals",
 			"scope": [
@@ -1963,9 +1956,9 @@
 		"statusBarItem.remoteBackground": "#84bcf9",
 		"statusBarItem.remoteForeground": "#032128",
 		"titleBar.activeBackground": "#14161b",
-		"titleBar.activeForeground": "#6d86b6",
+		"titleBar.activeForeground": "#334362",
 		"titleBar.inactiveBackground": "#111317",
-		"titleBar.inactiveForeground": "#58678a",
+		"titleBar.inactiveForeground": "#334362",
 		"titleBar.border": "#a9787800",
 		"menubar.selectionForeground": "#6dadff",
 		"menubar.selectionBackground": "#181a21",
@@ -2178,8 +2171,9 @@
 		"editorGutter.commentRangeForeground": "#334362",
 		"debugExceptionWidget.background": "#111317",
 		"debugExceptionWidget.border": "#47474700",
-		"gitlens.trailingLineForegroundColor": "#516999",
-	
-
+		"gitlens.trailingLineForegroundColor": "#41557e",
+		"toolbar.activeBackground": "#111317",
+		"toolbar.hoverBackground": "#111317",
+		
 	}
 }
