@@ -1,28 +1,32 @@
 {
-  "name": "theme-oblivion-2-0",
-  "displayName": "Theme Oblivion 2.0",
-  "description": "Este tema de colores azules está inspirado en el clásico Tema Original Oblivion, pero ha sido renovado y modernizado para satisfacer las necesidades de las nuevas generaciones de desarrolladores que utilizan Visual Studio Code. Disfruta de una paleta de colores suaves y relajantes que mejoran la legibilidad y reducen la fatiga visual durante largas sesiones de codificación.",
-  "version": "0.26.0",
-  "publisher": "ArfaxadZadot",
-  "engines": {
-    "vscode": "^1.91.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "icon": "icon.png",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/FaxisDev/Theme-Oblivion.2.0"
-  },
-  "contributes": {
-    "themes": [
-      {
-        "label": "Theme Oblivion 2.0",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Theme Oblivion 2.0-color-theme.json"
-      }
-    ]
-  }
+    "name": "theme-oblivion-2-0",
+    "displayName": "Theme Oblivion 2.0",
+    "description": "Este tema de colores azules está inspirado en el clásico Tema Original Oblivion, pero ha sido renovado y modernizado para satisfacer las necesidades de las nuevas generaciones de desarrolladores que utilizan Visual Studio Code. Disfruta de una paleta de colores suaves y relajantes que mejoran la legibilidad y reducen la fatiga visual durante largas sesiones de codificación.",
+    "version": "0.26.0",
+    "publisher": "ArfaxadZadot",
+    "engines": {
+        "vscode": "^1.91.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "icon.png",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/FaxisDev/Theme-Oblivion.2.0"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Theme Oblivion 2.0",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Theme Oblivion 2.0-color-theme.json"
+            }
+        ],
+        "configurationDefaults": {
+            "material-icon-theme.folders.color": "#507d99",
+            "material-icon-theme.files.color": "#507d99"
+        }
+    }
 }
