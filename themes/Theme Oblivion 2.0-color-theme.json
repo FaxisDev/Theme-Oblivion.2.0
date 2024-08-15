@@ -872,6 +872,12 @@
 			}
 		},
 		{
+			"scope": "constant.numeric.css",
+			"settings": {
+				"foreground": "#EA3333"
+			}
+		},
+		{
 			"name": "Constants",
 			"scope": "constant",
 			"settings": {
