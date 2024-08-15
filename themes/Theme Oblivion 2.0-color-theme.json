@@ -523,9 +523,21 @@
 		},
 		{
 			"name": "keyword.operator",
-			"scope": "keyword.operator.arithmetic,keyword.operator.comparison,keyword.operator.decrement,keyword.operator.increment,keyword.operator.relational",
+			"scope": "keyword.operator.comparison,keyword.operator.decrement,keyword.operator.increment,keyword.operator.relational",
 			"settings": {
 				"foreground": "#ea3333"
+			}
+		},
+		{
+			"scope": "keyword.operator.arithmetic",
+			"settings": {
+				"foreground": "#3FBE50"
+			}
+		},
+		{
+			"scope": "keyword.operator.arithmetic.python",
+			"settings": {
+				"foreground": "#FF61AB"
 			}
 		},
 		{
@@ -856,7 +868,7 @@
 			"name": "Integers",
 			"scope": "constant.numeric",
 			"settings": {
-				"foreground": "#ea3333"
+				"foreground": "#6096FF"
 			}
 		},
 		{
@@ -1283,7 +1295,13 @@
 			"name": "python function decorator @",
 			"scope": "meta.function.decorator.python",
 			"settings": {
-				"foreground": "#5A64FF"
+				"foreground": "#8459FF"
+			}
+		},
+		{
+			"scope": "punctuation.definition.decorator.python",
+			"settings": {
+				"foreground": "#8459FF"
 			}
 		},
 		{
@@ -1508,7 +1526,7 @@
 				"keyword.operator.assignment"
 			],
 			"settings": {
-				"foreground": "#ea3333"
+				"foreground": "#FF934B"
 			}
 		},
 		{
@@ -1926,6 +1944,12 @@
 		},
 	],
 	"colors": {
+		"editorBracketHighlight.foreground1": "#FFA130", // Color para el primer par de brackets
+		"editorBracketHighlight.foreground2": "#FF5A30", // Color para el segundo par
+		"editorBracketHighlight.foreground3": "#FF309B", // Color para el tercer par
+		"editorBracketHighlight.foreground4": "#AE30FF", // Color para el cuarto par
+		"editorBracketHighlight.foreground5": "#3038FF", // Color para el quinto par
+		"editorBracketHighlight.foreground6": "#30BAFF", // Color para el sexto par
 		"foreground": "#849cd5",
 		"focusBorder": "#334362",
 		"disabledForeground": "#334362",
@@ -2188,6 +2212,6 @@
 		"debugExceptionWidget.border": "#47474700",
 		"gitlens.trailingLineForegroundColor": "#41557e",
 		"toolbar.activeBackground": "#13151A",
-		"toolbar.hoverBackground": "#13151A"
+		"toolbar.hoverBackground": "#13151A",
 	}
 }

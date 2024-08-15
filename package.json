@@ -26,7 +26,8 @@
         ],
         "configurationDefaults": {
             "material-icon-theme.folders.color": "#507d99",
-            "material-icon-theme.files.color": "#507d99"
+            "material-icon-theme.files.color": "#507d99",
+            "editor.bracketPairColorization.enabled": true
         }
     }
 }
