@@ -1947,6 +1947,19 @@
 				"fontStyle": "italic"
 			}
 		},
+		/* Json */
+		{
+			"scope": "support.type.property-name.json",
+			"settings": {
+				"foreground": "#6D7CFF"
+			}
+		},
+		{
+			"scope": "support.type.property-name.json punctuation",
+			"settings": {
+				"foreground": "#5B67D4"
+			}
+		}
 	],
 	"colors": {
 		"editorBracketHighlight.foreground1": "#FFA130", // Color para el primer par de brackets
@@ -2017,12 +2030,12 @@
 		"menu.selectionBorder": "#00000000",
 		"menu.separatorBackground": "#13151A",
 		"menu.border": "#00000000",
-		"button.background": "#385099",
-		"button.foreground": "#ffffff",
+		"button.background": "#84bcf9",
+		"button.foreground": "#13151A",
 		"button.hoverBackground": "#1d9f62",
 		"button.secondaryForeground": "#ffffff",
 		"button.secondaryBackground": "#242d43",
-		"button.secondaryHoverBackground": "#272b4d",
+		"extensionButton.separator": "#13151A",
 		"input.background": "#131317",
 		"input.border": "#00000000",
 		"input.foreground": "#94b1ea",
